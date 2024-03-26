@@ -17,4 +17,13 @@ git show
 => 가장 최신의 커밋 내용을 보여준다.
 
 git show HEAD^^
+git show HEAD~2
 => 현재로부터 2번쨰 전의 변경사항을 알 수 있다.
+
+git reset --hard HEAD^^
+=> 커밋의 변경사항들을 초기화한다.
+=> 커밋을 삭제해버린다.
+=> 커밋 HEAD 링크로 이동한다.
+
+git reflog
+=> 해당 main 브랜치에서 어떤 변경사항이 있었는지 History를 조회할수 있다.
