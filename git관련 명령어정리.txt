@@ -1,0 +1,20 @@
+git log --oneline
+
+=> git commit 된 로그들을 터미널에서 한줄로 표시해준다.
+=> commit 해시값, 가리키는 정보, 커밋 메시지
+
+git log -n 2
+=> 최신으로 2개의 로그 내용만 확인하겠다.
+
+git log --help
+=> log 옵션에 대한 내용을 알려준다.
+
+git log --oneline --decorate --graph
+=> 그래프 형태로 로그 내용을 알고싶다.
+=> 분기 및 머지된 형태의 내용을 알 수 있다.
+
+git show
+=> 가장 최신의 커밋 내용을 보여준다.
+
+git show HEAD^^
+=> 현재로부터 2번쨰 전의 변경사항을 알 수 있다.
