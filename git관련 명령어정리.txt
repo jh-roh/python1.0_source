@@ -27,3 +27,19 @@ git reset --hard HEAD^^
 
 git reflog
 => 해당 main 브랜치에서 어떤 변경사항이 있었는지 History를 조회할수 있다.
+
+git stash
+=> 변경사항을 커밋하기 보단 임시저장
+=> main 브랜치로부터 다른 브랜치로 전환해서 작업 중 변경사항을 커밋하기 애매한 상황에 사용
+
+git stash list
+=>git stash 임시저장한 목록을 확인가능하다.
+
+git -stash -m '회원가입 폼 작업 진행중....'
+=>stash 관련한 메시지를 남길 수 있다.
+
+git stash pop
+git stash pop 1
+git stash pop 0
+=> git stash list에 있는 stash 항목(임시저장 소스)를 꺼내 현재 분기에 다시 적용
+
