@@ -48,3 +48,13 @@ git commit --amend
 => git push origin main --force로 명령어 입력해야 push가 정상 동작
 => 운영환경에서는 조심해야하는 명령어
 
+
+git rebase -i hash값
+=> 해당 명령 실행 시 edit, pick, drop 등 해당 항목들 수정간ㅇ
+=> 명령 실행 후 HEAD 시점의 커밋 항목의 내용 덮어쒸움(수정) 후 git commit --amend로 커밋
+=> amend를 통해서 커밋 후 다음 과정으로 넘어가려면 git rebase --continue 옵션 적용
+
+
+git merge branch명
+git merge feature-c
+=> 가장 일반적인 merge 명령어
