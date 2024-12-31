@@ -78,3 +78,17 @@ print()
 #Snake Case : number_of_college_graduates => Variable
 
 student_grade = 3
+
+#허용하는 변수 선언 법
+age = 1
+Age = 2
+aGe = 3
+
+
+
+# Python only has a few dozen reserved words:
+# False , None , True , and , as , assert , async , await , break , class , continue ,
+# def , del , elif , else , except , finally , for , from , global , if , 
+# import , in , is , lambda , nonlocal , not , or , pass , raise , return , try , while , with , yield 
+
+
